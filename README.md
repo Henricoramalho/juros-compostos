@@ -1,16 +1,18 @@
-# myapp
+# Simulador de Financiamento
+- Este projeto em Flutter é um simulador de financiamento que permite ao usuário calcular o valor total a ser pago e o valor de cada parcela, considerando juros compostos e taxas adicionais. O cálculo é feito com base na fórmula de juros compostos, e os resultados são apresentados de forma clara e imediata.
 
-A new Flutter project.
+![Print0](./assets/juros.png)
 
-## Getting Started
+# Tecnologias
+- Flutter
+- Dart
+- vsCode
+- Firebase Studio
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Como testar
+- Clone este repositório
+- Abra com VsCode ou Android Studio, com um terminal instale as dependências e execute no emulador ou navegador
+```bash
+flutter pub get
+flutter run
+```
